@@ -1,7 +1,7 @@
 <script setup>
 import ParentLayout from '@vuepress/theme-default/layouts/Layout.vue'
 import AI from './AI.vue'
-import Comment from "../components/comment/comment.vue";
+import Comment from "./comment.vue";
 </script>
 
 <template>
@@ -16,7 +16,4 @@ import Comment from "../components/comment/comment.vue";
 </template>
 
 <style lang="css">
-.my-footer {
-    text-align: center;
-}
 </style>
