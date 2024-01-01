@@ -21,7 +21,7 @@ onMounted(() => {
       repo: 'myDocs',
       owner: 'Chenzhexian',
       admin: ['Chenzhexian'],
-      id: location.href.slice(50, 100),
+      id: location.href.substring(location.href.lastIndexOf('/') + 1, location.href.indexOf('.html')),
       distractionFreeMode: false,
     };
     const gitalk = new Gitalk(commentConfig);
