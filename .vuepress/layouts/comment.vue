@@ -11,7 +11,7 @@ onMounted(() => {
   let script = document.createElement('script');
 
   // 使用可选链 (?.) 或条件检查来确保对象存在
-  script.src = 'https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js';
+  script.src = 'https://czxcab.cn/file/docs/gitalk.min.js';
   body?.appendChild(script);
 
   script?.addEventListener('load', () => {
