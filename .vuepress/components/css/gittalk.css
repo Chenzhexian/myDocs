@@ -1022,13 +1022,13 @@
     font-size: 0.875em;
     word-wrap: break-word;
     resize: vertical;
-    background-color: #f6f6f6;
+    background-color: #2b313a;
     outline: none;
     -webkit-transition: all 0.25s ease;
     transition: all 0.25s ease;
 }
 .gt-container .gt-header-textarea:hover {
-    background-color: #fbfbfb;
+    background-color: #2b313a;
 }
 .gt-container .gt-header-preview {
     padding: 0.75em;
