@@ -23,7 +23,7 @@ export default {
         // 这里接受一个数组，可以添加多个管理员
         admin: ['Chenzhexian'],
         // id 用于当前页面的唯一标识，一般来讲 pathname 足够了，
-        id:location.hash,
+        id:location.hash.slice(0, 50),
         title: 'commentGitTalk',
         distractionFreeMode: false,
       };
