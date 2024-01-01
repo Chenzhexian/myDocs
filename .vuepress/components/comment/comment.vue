@@ -24,7 +24,6 @@ export default {
         admin: ['Chenzhexian'],
         // id 用于当前页面的唯一标识，一般来讲 pathname 足够了，
         id:location.hash.slice(0, 50),
-        title: 'commentGitTalk',
         distractionFreeMode: false,
       };
       const gitalk = new Gitalk(commentConfig);
