@@ -8,8 +8,8 @@
     "build": " vuepress build ."
   },
   "devDependencies": {
-    "@vuepress/plugin-search": "^2.0.0-rc.0",
-    "vuepress": "^2.0.0-rc.0",
-    "vuepress-plugin-comment2": "^2.0.0-alpha.0"
+    "@vuepress/plugin-search": "2.0.0-rc.0",
+    "vuepress": "2.0.0-rc.0",
+    "vuepress-plugin-comment2": "2.0.0-alpha.0"
   }
 }
